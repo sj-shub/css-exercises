@@ -26,7 +26,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 14px;
+  
 }
 
 
@@ -59,10 +59,12 @@ a {
  
 }
 
-
-
 .content {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 
